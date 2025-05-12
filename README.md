@@ -12,8 +12,11 @@ This project is an Image Caption Generator that automatically describes the cont
 
 # Model Architecture
 Feature Extractor: Xception (pre-trained CNN)
+
 Language Model: RNN with Embedding + LSTM layers
+
 Dataset: Flickr8k (images and corresponding captions)
+
 Tokenizer: Keras Tokenizer for vocabulary processing
 
 # Sample Output
